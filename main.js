@@ -33,7 +33,7 @@ function longest(s1, s2) {
   //a new variable will hold the value of both strings in one
 
   let newS = s1.concat(s2);
-  //return the concatanated string, no particular order
+  //return the concatanated string, unicode code by default 
   newS = newS.sort();
 
   let resultS = [];
